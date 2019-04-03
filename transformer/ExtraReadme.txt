@@ -1,0 +1,1 @@
+The colored diffuse for Optimus was made by me since the model is colored ingame normally. Any issues with that texture are probably because I edited it crappily.

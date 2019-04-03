@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- <script src="vendor/aframe/build/aframe.min.js"></script> -->
+<script src="https://aframe.io/releases/0.6.0/aframe.min.js"> </script>
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"> </script>
+<!-- <script src="../build/aframe-ar.js"></script> -->
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'><div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
+	<a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - example for a-frame
+	<br/>
+	Contact me any time at <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
+</div>
+<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+	<!-- handle unknown marker -->
+		<!-- <a-marker type='unknown'>
+			<a-box depth="1" height="1" width="1" position='0 0.5 0' material='opacity: 0.5; side:double; color:blue;'></a-box>
+		</a-marker> -->
+
+		<!-- handle hiro marker -->
+		<a-marker preset='hiro'>
+			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:red;'>
+				<a-torus-knot radius='0.26' radius-tubular='0.05'>
+					<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+				</a-torus-knot>
+			</a-box>
+		</a-marker>
+
+		<a-marker preset='custom' type='pattern' url='a.patt'> <!-- Trop gros -->
+			<a-entity position="0 0.1 0"
+			scale="0.01 0.01 0.01" material='color: gray;'
+			obj-model="obj: url(alice/alice.obj);
+			mtl: url(alice/alice.mtl)">
+
+		</a-entity>
+		</a-marker>
+
+		<a-marker preset='custom' type='pattern' url='patt/B.patt'>
+			<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(bowser/bowser.obj);
+			mtl: url(bowser/bowser.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/C.patt'>
+		<a-entity scale="0.05 0.05 0.05" rotation="90 0 0" collada-model=”url(cloud/cloud.dae)”></a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/D.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(donkey/donkey.obj);
+			mtl: url(donkey/donkey.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/E.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(evoli/evoli.obj);
+			mtl: url(evoli/evoli.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/F.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(fox/fox.obj);
+			mtl: url(fox/fox.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/G.patt'> <!-- Trop gros -->
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(goku/goku.obj);
+			mtl: url(goku/goku.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/H.patt'> <!-- Trop petit -->
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: green;'
+			obj-model="obj: url(hulk/hulk.obj);
+			mtl: url(hulk/hulk.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/I.patt'> <!-- Trop petit -->
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: red;'
+			obj-model="obj: url(iron/iron.obj);
+			mtl: url(iron/iron.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/J.patt'>
+		<a-entity collada-model=”url(jotaro/jotaro.dae)”></a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/K.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(king/king.obj);
+			mtl: url(king/king.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/L.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(luigi/luigi.obj);
+			mtl: url(luigi/luigi.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/M.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(mario/mario.obj);
+			mtl: url(mario/mario.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/N.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" rotation="90 0 0" material='color: gray;'
+			obj-model="obj: url(ness/ness.obj);
+			mtl: url(ness/ness.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/O.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(olimar/olimar.obj);
+			mtl: url(olimar/olimar.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/P.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(pokeball/pokeball.obj);
+			mtl: url(pokeball/pokeball.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/Q.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(question/question.obj);
+			mtl: url(question/question.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/R.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(rondoudou/rondoudou.obj);
+			mtl: url(rondoudou/rondoudou.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/S.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model='obj: url(samus/samus.obj);
+			mtl: url(samus/samus.mtl)'>
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/T.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" 
+			collada-model=”url(transformer/transformer.dae)”>
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/U.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(up/up.obj);
+			mtl: url(up/up.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/V.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(villageois/villageois.obj);
+			mtl: url(villageois/villageois.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/W.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(wiifit/wiifit.obj);
+			mtl: url(wiifit/wiifit.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/X.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" 
+			collada-model=”url(xwing/xwing.dae)”>
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/Y.patt'>
+		<a-entity position="0 0.1 0"
+			scale="0.1 0.1 0.1" material='color: gray;'
+			obj-model="obj: url(yoshi/yoshi.obj);
+			mtl: url(yoshi/yoshi.mtl)">
+
+		</a-entity>
+	</a-marker>
+
+	<a-marker preset='custom' type='pattern' url='patt/Z.patt'>
+		<a-entity
+		position="0 0.1 0"
+			scale="0.1 0.1 0.1"
+		obj-model="obj: url(fox/fox.obj); 
+		mtl: url(fox/fox.mtl)">
+	</a-entity>
+</a-marker>
+
+
+<!-- handle matrix marker -->
+<a-marker type='barcode' value='5'>
+	<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:pink;'>
+		<a-torus-knot radius='0.26' radius-tubular='0.05'>
+			<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+		</a-torus-knot>
+	</a-box>
+</a-marker>
+
+<!-- handle kanji marker -->
+<a-marker preset='kanji'>
+	<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:green;'>
+		<a-torus-knot radius='0.26' radius-tubular='0.05'>
+			<a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
+		</a-torus-knot>
+	</a-box>
+</a-marker>
+
+<!-- add a simple camera -->
+<a-entity camera></a-entity>
+</a-scene>
+</body>
+</html>
+

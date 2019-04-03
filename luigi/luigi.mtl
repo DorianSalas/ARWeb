@@ -1,0 +1,20 @@
+# Material file for luigi.obj
+
+newmtl luigi_body_high_ArtWork.png
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd luigi_body_high_ArtWork.png
+
+newmtl luigi_eye_Art_Work.png
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd luigi_eye_Art_Work.png
+

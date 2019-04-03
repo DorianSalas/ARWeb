@@ -1,0 +1,236 @@
+# Material file for Donkeykong.obj
+
+newmtl mat1
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_arm1.png
+
+newmtl mat2
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_arm1.png
+
+newmtl mat3
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_sole.png
+
+newmtl mat4
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_thumb2.png
+
+newmtl mat5
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_main.png
+
+newmtl mat6
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_body1.png
+
+newmtl mat7
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_ear.png
+
+newmtl mat8
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_eye.0.png
+
+newmtl mat9
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_eye.0.png
+
+newmtl mat10
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_eyelid.png
+
+newmtl mat11
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_hand1.png
+
+newmtl mat12
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_hand2.png
+
+newmtl mat13
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_arm1.png
+
+newmtl mat14
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_arm1.png
+
+newmtl mat15
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_mouth1.png
+
+newmtl mat16
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_mouth2.png
+
+newmtl mat17
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_mouth3.png
+
+newmtl mat18
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_mouth4.png
+
+newmtl mat19
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_thumb1.png
+
+newmtl mat20
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_tie1.png
+
+newmtl mat21
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_tie1.png
+
+newmtl mat22
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_tie2.png
+
+newmtl mat23
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_tie1.png
+
+newmtl mat24
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_toe.png
+
+newmtl mat25
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_tongue1.png
+
+newmtl mat26
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	Ka 0.5 0.5 0.5
+	map_Kd donkey_tongue2.png
+
